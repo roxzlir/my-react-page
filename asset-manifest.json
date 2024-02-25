@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/my-react-page/static/css/main.c9cee936.css",
+    "main.js": "/my-react-page/static/js/main.6d46eace.js",
+    "static/js/592.74aec888.chunk.js": "/my-react-page/static/js/592.74aec888.chunk.js",
+    "static/media/rich-tervet-q2GNdFmhxx4-unsplash.jpg": "/my-react-page/static/media/rich-tervet-q2GNdFmhxx4-unsplash.56f9189fb58000a39876.jpg",
+    "static/media/pawel-czerwinski-2.jpg": "/my-react-page/static/media/pawel-czerwinski-2.26b4be22b5cac492af00.jpg",
+    "static/media/pawel-czerwinski-1.jpg": "/my-react-page/static/media/pawel-czerwinski-1.26777b8aa98acf17152e.jpg",
+    "static/media/pawel-czerwinski-5.jpg": "/my-react-page/static/media/pawel-czerwinski-5.80e32585b44b92a55b9a.jpg",
+    "static/media/pawel-czerwinski-3.jpg": "/my-react-page/static/media/pawel-czerwinski-3.a3f53c376a02cc9f2805.jpg",
+    "static/media/charlesdeluvio-pjAH2Ax4uWk-unsplash.jpg": "/my-react-page/static/media/charlesdeluvio-pjAH2Ax4uWk-unsplash.c37ca88ace958eb2417a.jpg",
+    "static/media/github-logo.png": "/my-react-page/static/media/github-logo.6fe6aa5e3b518ac60f75.png",
+    "static/media/profil-styled-frame.png": "/my-react-page/static/media/profil-styled-frame.4ac1f03784828edd82d1.png",
+    "static/media/teamwork-bricks-cutout.png": "/my-react-page/static/media/teamwork-bricks-cutout.c943bc212c1e68527bcf.png",
+    "static/media/pawel-czerwinski-OY3slACa3ec-unsplash.jpg": "/my-react-page/static/media/pawel-czerwinski-OY3slACa3ec-unsplash.48c84c3a2221c24e1e24.jpg",
+    "static/media/vipul-jha-a4X1cdC1QAc-unsplash.jpg": "/my-react-page/static/media/vipul-jha-a4X1cdC1QAc-unsplash.41f46c2f9388808b99ff.jpg",
+    "static/media/joakim-honkasalo-ssvjJLB6wIw-unsplash.jpg": "/my-react-page/static/media/joakim-honkasalo-ssvjJLB6wIw-unsplash.cd6f321748f7a16ff5cd.jpg",
+    "static/media/frank-on-sand.jpg": "/my-react-page/static/media/frank-on-sand.20e602837c99972b53c7.jpg",
+    "static/media/IMG_20221221_002336.jpg": "/my-react-page/static/media/IMG_20221221_002336.261d3205001cd54641a6.jpg",
+    "static/media/GitHubCatLogo.png": "/my-react-page/static/media/GitHubCatLogo.69ffd9cd5a846c976177.png",
+    "index.html": "/my-react-page/index.html",
+    "main.c9cee936.css.map": "/my-react-page/static/css/main.c9cee936.css.map",
+    "main.6d46eace.js.map": "/my-react-page/static/js/main.6d46eace.js.map",
+    "592.74aec888.chunk.js.map": "/my-react-page/static/js/592.74aec888.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9cee936.css",
+    "static/js/main.6d46eace.js"
+  ]
+}
