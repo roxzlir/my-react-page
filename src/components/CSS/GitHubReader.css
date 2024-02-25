@@ -1,0 +1,61 @@
+.git-container {
+    display: flex;
+}
+.git-ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.git-li {
+    color: whitesmoke;
+    font-family: "Tektur", sans-serif;
+    width: 20%;
+    border: 4px solid rgba(3, 11, 85, 0.397);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 25px;
+    background-color: #000129ab;
+}
+
+.git-li p {
+    font-weight: 600;
+    font-size: medium;
+}
+.git-li h4 {
+    font-size: x-large;
+    font-weight: bold;
+}
+.git-li img {
+    transition: transform 0.6s;
+}
+.git-li img:hover {
+    transform: scale(1.15);
+}
+.loading-container {
+    display: flex;
+    background-color: #000b4a;
+    align-items: center;
+    justify-content: center;
+}
+.loading-text {
+    align-items: center;
+    font-family: "Tektur", sans-serif;
+    color: whitesmoke;
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: rgba(196, 4, 4, 0.74);
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .git-container {
+        justify-content: center;
+    }
+    .git-li {
+        width: 100%;
+        margin: 50px;
+        padding: 10px;
+        margin-left: 10px;
+    }
+}

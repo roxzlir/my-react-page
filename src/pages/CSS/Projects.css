@@ -1,0 +1,27 @@
+.project-site-container {
+    background-image: url(../../images/pawel-czerwinski-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.project-container {
+    display: flex;
+    justify-content: center;
+}
+.project-container h1 {
+    font-family: "Protest Revolution", sans-serif;
+    color: whitesmoke;
+}
+.project-container img {
+    width: 5%;
+}
+@media screen and (max-width: 768px) {
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-container img {
+        width: 30%;
+    }
+}

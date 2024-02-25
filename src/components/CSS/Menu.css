@@ -1,0 +1,56 @@
+.navbar {
+    position: relative;
+    display: flex;
+    background-image: url(../../images/pawel-czerwinski-OY3slACa3ec-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: inherit;
+}
+.menu-container {
+    margin: 40px;
+    background-color: #0001299c;
+    border-radius: 6px;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.nav-link {
+    margin: 35px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: x-large;
+    transition: color 0.6s;
+}
+.nav-link:hover {
+    color: #8f9091;
+    transition: color 0.6s;
+}
+.nav-links li {
+    transition: transform 0.6s;
+}
+.nav-links li:hover {
+    transform: scale(1.15);
+}
+.nav-link:focus {
+    color: #9a9da0;
+    transform: scale(1.1);
+    transition: color 0.6s;
+    transition: transform 0.6s;
+}
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap; /* Lägger till detta för att låta elementen gå ner på flera rader */
+        justify-content: center; /* Centrera elementen på mindre skärmar */
+        margin-top: 8px; /* Justera utrymmet ovanför menyn */
+    }
+}

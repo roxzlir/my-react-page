@@ -1,0 +1,73 @@
+.form-container {
+    display: flex;
+    background-image: url(../../images/pawel-czerwinski-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 80vh;
+    flex-wrap: wrap;
+}
+
+.form-section {
+    display: flex;
+    flex: 1;
+    align-items: center; /* Centrera innehållet vertikalt */
+    justify-content: center; /* Centrera innehållet horisontellt */
+    height: inherit;
+    border: 4px solid rgba(3, 11, 85, 0.397);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    background-color: #000129ab;
+}
+input {
+    padding: 4px;
+    margin: 0.5em;
+    background-color: #000129ab;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 4px;
+}
+input[type="text"] {
+    color: whitesmoke;
+}
+textarea {
+    width: 200px; /* Ange önskad bredd */
+    height: 200px;
+    margin: 0.5em;
+    background-color: #000129ab;
+    font-family: "Josefin Sans", sans-serif;
+    border-radius: 4px;
+}
+textarea[type="text"] {
+    color: whitesmoke;
+}
+#form-btn {
+    color: whitesmoke;
+    background-color: #b10404c7;
+    font-family: "Josefin Sans", sans-serif;
+    border: 3px solid #0001299c;
+    outline: #00012980 solid 2px;
+    border-radius: 5px;
+    transition: color 0.6s;
+    transition: transform 0.6s;
+}
+#form-btn:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    background-color: #8a0303c7;
+    color: rgb(173, 172, 172);
+}
+.contact-text {
+    display: flex;
+    flex: 1;
+    color: whitesmoke;
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #0001299c;
+    justify-content: center;
+    height: inherit;
+    border: 4px solid rgba(3, 11, 85, 0.397);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 40px;
+    background-color: #000129ab;
+}

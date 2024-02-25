@@ -1,0 +1,82 @@
+{
+    "workplaces": [
+        {
+            "id": 1,
+            "company": "Bevego Byggplåt & Ventilation",
+            "title": "Lagermedarbetar/Kundmottagare",
+            "workperiod": "Februari 2020 - Januari 2023",
+            "description": "B2B grossistföretag inom plåt, ventilation och teknisk isolering. Allt från att lossa lastbilar till att ta emot kunder och sälja material som vi sedan packar för direkt leveranser till deras byggarbetsplatser."
+        },
+        {
+            "id": 2,
+            "company": "Elgiganten AB, Sundsvall",
+            "title": "Lagermedarbetar/Servicedesk",
+            "workperiod": "Augusti 2018 - Februari 2020",
+            "description": "Utgick från lager med div uppgifter som utlevereringar, mottag av varor, skicka service ärenden till leverantörer, ingick också att hantera reklamationsärenden, se till att den standard vi satt efterhålls etc. Arbetade också i butikens support och kassa där jag hjälpte kunder med deras produkter, installerade och felsökte samt undersökte defekta produkter för att se om det är garantifel. Hade också uppsatta mål för försäljning av tillbehör, försäkringar och tjänster."
+        },
+        {
+            "id": 3,
+            "company": "Eltel Networks, Sundsvall",
+            "title": "Produktionsplanerare",
+            "workperiod": "Maj 2016 - Februari 2017",
+            "description": "Huvudsaklig arbetsuppgift var att planera ut och koordinera arbeten till ett tekniker team utifrån inkommande arbets-ordrar från olika företag. Andra arbetsuppgifter som ingick var att besvara inkommande samtal, ringa ut till privat och företagskunder för att boka tid för installation av bredband, telefoni, kabeldragning samt anslutning av ny teleledning."
+        },
+        {
+            "id": 4,
+            "company": "Com Hem AB, Sundsvall",
+            "title": "Kundtjänstmedarbetare",
+            "workperiod": "April 2015 - Maj 2016",
+            "description": "Telefoni- och bredbandssupport för privatkunder och mindre företag. Arbetet innebar bl.a. att svara på inkommande samtal, hjälpa fiber- och koaxialkunder med inkoppling, guidning och felsökning av deras tjänster samt uppgradering av hastighet och försäljning av mervärdestjänster."
+        }
+    ],
+    "education": [
+        {
+            "id": 101,
+            "name": "Teknikprogrammet",
+            "place": "Västermalms Gymnasium, Sundsvall",
+            "period": "Augusti 2004 - Juni 2007",
+            "description": "Studerade datateknik och nätverk som innefattade bland annat studier inom Cisco's moduler, programmnering, nätverkslära och mycket annat."
+        },
+        {
+            "id": 102,
+            "name": "Komvux",
+            "place": "Vuxenutbildningar, Sundsvall",
+            "period": "April 2017 - Juni 2018",
+            "description": "Läste diverse kurser så jag har högskolebehörighet samt en hel del pedagogik kurser samt special pedagogik."
+        },
+        {
+            "id": 103,
+            "name": "Spanska",
+            "place": "Internationella Skolorna, Barcelona",
+            "period": "Januari 2012 - Juni 2012",
+            "description": "Studerade spanska A1, A2, B1 & B2 under 6 månader i Barcelona. Spanska nivå 1-4."
+        }
+    ],
+    "languages": [
+        {
+            "id": 990,
+            "name": "Svenska",
+            "level": "modersmål"
+        },
+        {
+            "id": 991,
+            "name": "Engelska",
+            "level": "mycket goda kunskaper i tal och skrift"
+        },
+        {
+            "id": 992,
+            "name": "Spanska",
+            "level": "gymnasienivå 4, goda kunskapar i tal och skrift"
+        },
+        {
+            "id": 993,
+            "name": "Norska",
+            "level": "förstår samtal och skrift"
+        },
+        {
+            "id": 994,
+            "name": "Danska",
+            "level": "förstår enklare samtal"
+        }
+    ]
+}

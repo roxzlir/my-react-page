@@ -1,0 +1,59 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+}
+.top-left,
+.top-right,
+.bottom-left,
+.bottom-right {
+    height: 300px;
+    border: 4px solid rgba(3, 11, 85, 0.397);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #000129ab;
+}
+.top-left h1 {
+    font-family: "Protest Revolution", sans-serif;
+    font-size: xx-large;
+}
+.top-left,
+.bottom-right {
+    color: whitesmoke;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: large;
+}
+.bottom-left {
+    flex: 1;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Ändra till en kolumn på mindre skärmar */
+    }
+
+    /* Anpassa storlek på sektioner för mindre skärmar */
+    .top-left,
+    .top-right,
+    .bottom-left,
+    .bottom-right {
+        height: auto; /* Anpassa höjden automatiskt för mindre skärmar */
+    }
+
+    /* Ändra storleken på h1 för mindre skärmar */
+    .top-left h1 {
+        font-size: x-large; /* Anpassa fontstorlek för mindre skärmar */
+    }
+
+    /* Anpassa textstorlek för mindre skärmar */
+    .top-left,
+    .bottom-right {
+        font-size: medium; /* Anpassa textstorlek för mindre skärmar */
+    }
+}

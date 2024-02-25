@@ -1,0 +1,44 @@
+.cv-container {
+    display: flex;
+    flex-direction: row;
+}
+.cv-container h2 {
+    font-family: "Protest Revolution", sans-serif;
+}
+.cv-left-column,
+.cv-right-column {
+    flex: 1;
+    border: 4px solid rgba(3, 11, 85, 0.397);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #000129ab;
+    flex-wrap: wrap;
+    color: whitesmoke;
+}
+
+.headline {
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: medium;
+}
+.dateline,
+.info-text {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+.dateline {
+    font-size: x-small;
+    font-style: italic;
+}
+.info-text {
+    margin-top: 1%;
+    font-size: small;
+}
+@media screen and (max-width: 768px) {
+    .cv-container {
+        flex-direction: column;
+    }
+}
