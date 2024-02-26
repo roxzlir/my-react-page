@@ -3,29 +3,26 @@ import "./CSS/GitHubReader.css";
 import GitHubPic from "../images/github-logo.png";
 
 const GitHubReader = () => {
-    const [repositories, setRepositories] = useState([]);
-    const [loading, setLoading] = useState(true);
+    const [repositories, setRepositories] = useState([]); // Repositories-data som hämtas från API:et
+    const [loading, setLoading] = useState(true); // Indikator för att visa om laddning är aktiv
 
+    // Använder useEffect för att göra anrop när komponenten körs
     useEffect(() => {
         const fetchRepositories = async () => {
             try {
+                // Anropar min GitHub API för att hämta användarens repositories
                 const response = await fetch(
-                    "https://api.github.com/users/roxzlir/repos",
-                    {
-                        headers: {
-                            Authorization:
-                                "Bearer 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",
-                        },
-                    }
+                    "https://api.github.com/users/roxzlir/repos"
                 );
 
-                if (!response.ok) {
-                    throw new Error("Failed to fetch repositories");
+                if (response.ok) {
+                    const data = await response.json();
+                    console.log("API response:", data);
+                    setRepositories(data);
+                } else {
+                    console.error("Kunde ej hämta data från Git API");
                 }
 
-                const data = await response.json();
-                console.log("API response:", data);
-                setRepositories(data);
                 setLoading(false); //Markerar att laddningen är klar då den sätter loading som false
             } catch (error) {
                 console.error("Error fetching repositories:", error);
@@ -34,7 +31,7 @@ const GitHubReader = () => {
         };
 
         fetchRepositories();
-    }, []);
+    }, []); // Använder en tom array för att anropa useEffect endast en gång när sidan läses in
 
     return (
         <div>
