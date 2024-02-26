@@ -9,7 +9,7 @@ const Menu = () => {
                 <ul className="nav-links">
                     <li>
                         <NavLink to="/" className="nav-link">
-                            Home
+                            Hem
                         </NavLink>
                     </li>
                     <li>
@@ -24,12 +24,12 @@ const Menu = () => {
                     </li>
                     <li>
                         <NavLink to="/About" className="nav-link">
-                            About
+                            Om mig
                         </NavLink>
                     </li>
                     <li>
                         <NavLink to="/Contact" className="nav-link">
-                            Contact
+                            Kontakt
                         </NavLink>
                     </li>
                 </ul>

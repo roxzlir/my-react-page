@@ -8,7 +8,7 @@ export default function Projects() {
             <div className="project-container">
                 <br />
                 <img src={GitHubCat} alt="GitHubCat Logo" />
-                <h1>GitHub repositories</h1>
+                <h1>Mina GitHub repositories</h1>
             </div>
             <GitHubReader />
         </div>
