@@ -52,7 +52,7 @@ export default function Home() {
                     onClick={changeProfilPic}
                     src={currentPic}
                     alt="profilbilder"
-                    style={{ width: "60%" }}
+                    style={{ width: "50%" }}
                 />
             </section>
             <section className="bottom-right">
