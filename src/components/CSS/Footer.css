@@ -1,12 +1,11 @@
 .footer-container {
     background-color: #000916;
-    height: auto; /* Sätt höjden till auto för att anpassa sig till innehållet */
+    height: auto;
     display: flex;
     flex-direction: row;
 }
 
 .footer-box {
     flex-grow: 1; /* Gör att foten expandera och fylla tillgängligt utrymme */
-    padding: 20px; /* Lägg till padding för att skapa avstånd från sidokanterna */
-    color: white; /* Ändra textfärgen till vit för bättre synlighet */
+    padding: 20px;
 }

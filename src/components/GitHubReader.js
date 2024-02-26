@@ -14,7 +14,7 @@ const GitHubReader = () => {
                     {
                         headers: {
                             Authorization:
-                                "Bearer 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",
+                                "Bearer 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",
                         },
                     }
                 );

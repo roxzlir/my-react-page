@@ -41,7 +41,11 @@ export default function Home() {
                 <p onClick={changeBackground}>Tack för att du besöker mig!</p>
             </section>
             <section className="top-right">
-                <img src={TeamWorkPic} style={{ width: "80%" }} />
+                <img
+                    src={TeamWorkPic}
+                    style={{ width: "80%" }}
+                    alt="teamworkn"
+                />
             </section>
             <section className="bottom-left">
                 <img
