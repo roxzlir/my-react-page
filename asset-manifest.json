@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-react-page/static/css/main.27ff0dd9.css",
+    "main.css": "/my-react-page/static/css/main.4c12c69f.css",
     "main.js": "/my-react-page/static/js/main.1f5d1fb2.js",
     "static/js/592.74aec888.chunk.js": "/my-react-page/static/js/592.74aec888.chunk.js",
     "static/media/rich-tervet-q2GNdFmhxx4-unsplash.jpg": "/my-react-page/static/media/rich-tervet-q2GNdFmhxx4-unsplash.56f9189fb58000a39876.jpg",
@@ -19,12 +19,12 @@
     "static/media/IMG_20221221_002336.jpg": "/my-react-page/static/media/IMG_20221221_002336.261d3205001cd54641a6.jpg",
     "static/media/GitHubCatLogo.png": "/my-react-page/static/media/GitHubCatLogo.69ffd9cd5a846c976177.png",
     "index.html": "/my-react-page/index.html",
-    "main.27ff0dd9.css.map": "/my-react-page/static/css/main.27ff0dd9.css.map",
+    "main.4c12c69f.css.map": "/my-react-page/static/css/main.4c12c69f.css.map",
     "main.1f5d1fb2.js.map": "/my-react-page/static/js/main.1f5d1fb2.js.map",
     "592.74aec888.chunk.js.map": "/my-react-page/static/js/592.74aec888.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27ff0dd9.css",
+    "static/css/main.4c12c69f.css",
     "static/js/main.1f5d1fb2.js"
   ]
 }
