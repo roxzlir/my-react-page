@@ -20,6 +20,12 @@
     margin: 20px;
     background-color: #000129ab;
 }
+.top-right img {
+    transition: transform 0.6s;
+}
+.top-right img:hover {
+    transform: scale(1.35);
+}
 .top-left h1 {
     font-family: "Protest Revolution", sans-serif;
     font-size: xx-large;
